@@ -35,14 +35,14 @@ class Train_Data:
         l3.place(x=1000, y=0, width=500, height=130)
 
         #IMAGES
-        img4 = Image.open(r"C:\Users\nuety\OneDrive\Desktop\Minor Project\images\35.png")
+        img4 = Image.open(r"C:\Users\nuety\OneDrive\Desktop\Minor Project\images\34.png")
         img4 = img4.resize((500, 620), Image.LANCZOS)
         self.photoimg4 = ImageTk.PhotoImage(img4)
 
         l4 = Label(self.root, image=self.photoimg4)
         l4.place(x=0, y=175, width=500, height=620)
 
-        img5 = Image.open(r"C:\Users\nuety\OneDrive\Desktop\Minor Project\images\34.png")
+        img5 = Image.open(r"C:\Users\nuety\OneDrive\Desktop\Minor Project\images\44.png")
         img5 = img5.resize((500, 550), Image.LANCZOS)
         self.photoimg5 = ImageTk.PhotoImage(img5)
 
